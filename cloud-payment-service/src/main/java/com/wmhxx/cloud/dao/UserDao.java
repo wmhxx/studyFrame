@@ -10,6 +10,12 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface UserDao {
 
+    /**
+     * 新增用户信息
+     *
+     * @param user 用户信息
+     * @return boolean
+     */
     boolean insertUser(User user);
 
 }
